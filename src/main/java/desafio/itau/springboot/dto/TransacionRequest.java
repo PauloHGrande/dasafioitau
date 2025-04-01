@@ -2,13 +2,12 @@ package desafio.itau.springboot.dto;
 
 import java.time.OffsetDateTime;
 
-import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 
 public class TransacionRequest {
 
 	@NotNull
-	@Min(0)
+	//@Min(0)
 	private double valor;
 	
 	@NotNull
